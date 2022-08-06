@@ -9,6 +9,11 @@
     margin: 30px;
 }
 
+.forms {
+    position: relative;
+    bottom: 50%
+}
+
 .right {
     display: flex;
     justify-content: space-between;
@@ -108,7 +113,8 @@ button {
 .platforms h5 {
     padding-bottom: 20px;
     position: relative;
-    left: 30%
+    left: 30%;
+    
 
 }
 
@@ -122,7 +128,7 @@ button {
 
 .platforms {
     position:relative;
-    top: -600px;
+    top: 10%
 }
 
 .sign-up {
@@ -130,13 +136,13 @@ button {
     top: 10%;
     color: white;
     text-align:center;
-    right: 90%;
+    right: 50%;
    
 }
 
 .image img {
     position: relative;
-    left: 15%;
+    left: 40%;
     bottom: 5px;
 }
 
