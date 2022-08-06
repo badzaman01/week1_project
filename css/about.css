@@ -1,4 +1,4 @@
-.btn-1 {
+#btn_id1 {
   border-style: solid;
   border-color: blue;
   color: blue;
@@ -6,9 +6,25 @@
   border-radius: 5px;
 }
 
-.btn-2 {
+#btn_id2 {
   border-style: none;
   height: auto;
   width: auto;
   border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+#hr_tag {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+#card_how_it_works {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-style: none;
 }
