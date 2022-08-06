@@ -20,11 +20,20 @@
   margin: 30px auto;
 }
 
-#card_how_it_works {
-  display: flex;
+.card_how_it_works {
+  /* display: flex;
   align-content: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   text-align: center;
   border-style: none;
+  margin: auto;
+}
+
+.blue_box {
+  margin: auto;
+}
+
+.nav-link {
+  color: black;
 }
