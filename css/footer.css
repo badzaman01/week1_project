@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer-beck {
   background-color: #1651f8;
   height: auto;
@@ -5,6 +6,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
+=======
+.footer-beck{
+    background-color:#1651F8;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+>>>>>>> 352cb9eed82fadb104f8466d5a1c314d7a13a58d
 }
 
 .try {
