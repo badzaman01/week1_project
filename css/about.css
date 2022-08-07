@@ -1,0 +1,68 @@
+#logo_btn {
+  background-color: white;
+  border-style: none;
+}
+
+.nav-link-active {
+  color: black;
+  padding-right: 13px;
+}
+
+#btn_id1 {
+  border-style: solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn_id2 {
+  border-style: none;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+#hr_tag {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.card_how_it_works {
+  /* display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  border-style: none;
+  margin: auto;
+}
+
+.blue_box {
+  margin: auto;
+}
+
+.nav-link {
+  color: black;
+}
+
+.card-body {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.footer-beck {
+  background-color: #1651f8;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}

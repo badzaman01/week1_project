@@ -16,14 +16,213 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+
+    
 
     <title>Double Tap CRM</title>
   </head>
   <body>
     <main>
-      <!-- <div class="container">PUT YOUR BOOTSTRAP HERE IF YOU DECIDE TO USE THIS</div> -->
+      <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><button id="logo_btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img  src="/images/CRM-Main/Logo.png" alt="#">
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Hello There...</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Welcome to Double Tap!!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link-active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how_it_works">How it Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Support</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="sign-in-beck.html">Sign In</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="sign-up-jason.html"
+                        >Try it Free</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button id="btn_id1" class="btn btn-primary me-md-2" type="button">
+                  <a href="sign-in-beck.html">Sign In</a>
+                </button>
+                <button id="btn_id2" class="btn btn-primary" type="button">
+                 <a  class="text-white" href="sign-up-jason.html">Try it Free</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+        <div class="container">
+          <main>
+            <div class="focus-box">
+              <div class="row">
+                <div class="col-md-7">
+                  <h1>Focus on Your Business</h1>
+                  <h4>Let Us Handle Everything Else</h4>
+                  <div class="info">
+                  Subscription Billing, powered with revenue retention tools and a
+                  seamless customer experience - without the technical hurdles.
+                  </div>
+                  <div class="focus-box-buttons">
+                    <button class="btn sign-up-btn">
+                      <a href="/sign-up.html"
+                        >Sign Up Free &nbsp&nbsp<i
+                         class="fa-solid fa-angles-right"
+                        ></i
+                     ></a>
+                    </button>
+                    <button class="btn chat-btn">
+                      <i class="fa-solid fa-comment-dots"></i>
+                     &nbsp&nbsp Chat With Us
+                    </button>
+                  </div>
+                  <div class="info">Already using DoubleTap? <a href="/sign-in-beck.html">Sign In</a>
+                  </div>
+                  <small>Free 14 day trial  &nbsp&#8226&nbsp  Manage customers in minutes &nbsp&#8226&nbspCancel at anytime</small>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    class="img-fluid"
+                    src="/images/CRM-Main/Header-Side.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+      <hr id="hr_tag" />
+    
+      <div class="card_how_it_works card">
+        <div>
+          <p id="how_it_works" class="card-text"><strong>How it Works</strong><br><br> <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Error impedit non minima, praesentium, magnam sunt ducimus, <br> vitae dolore similique nostrum 
+            exercitationem architecto <br> eveniet provident. Nesciunt reprehenderit deserunt <br> dolorum a provident.</b> <br><br><br></p>
+        </div>
+      </div>
+
+      <div class="card mb-5 blue_box" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/images/CRM-Main/Collect-info.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p id="pricing" class="card-text"><strong>Collect Useful Info</strong><br><br> Deliver the world of payment options and seamless checkout experiences, making it easy for your 
+                customers to pay you for your products and services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card_how_it_works card">
+        <div>
+          <p class="card-text"> <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Error impedit non minima, praesentium, magnam sunt ducimus, <br> vitae dolore similique nostrum 
+            exercitationem architecto <br> eveniet provident. Nesciunt reprehenderit deserunt <br> dolorum a provident.</b> <br><br><br></p>
+        </div>
+      </div>
+
+      <div class="card mb-5 blue_box" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/images/CRM-Main/Take Payments.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vero 
+                accusantium aut reiciendis modi non perspiciatis eum vel dolores ducimus eligendi laboriosam 
+                earum laudantium voluptate libero maxime Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Officiis delectus doloremque alias, sed natus vitae, illum, illo tempore unde suscipit nostrum amet 
+                sequi inventore. Aliquid nihil libero deleniti quae voluptatum. repudiandae quia distinctio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class="footer-beck container-fluid">
+
+        <div class="try">
+            <h1>Try Double Tap Today!</h1>
+            <br>
+            <h3>Let's Get Started</h3>
+        </div>
+
+        <div class="buttons">
+            <div class="get-started">
+                <button type="button" class="btn-lg"a href="/sign-up-jason.html"><b>Get Started</b><i class="fa-solid fa-angles-right fa-2xs"></i></button>
+                
+            </div>
+
+            <div class="chat">
+                <button type="button" class="btn-lg"a href="#"><i class="fa-solid fa-comment-dots"></i><b>Chat With Us</b></button>
+            </div>
+        </div>
+
+        <div class="text">
+            <small>Free 14 day trial  &nbsp&#8226&nbsp  Manage customers in minutes &nbsp&#8226&nbsp Cancel at anytime</small>
+        </div>
+
+    </div>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   </body>
 </html>
+
