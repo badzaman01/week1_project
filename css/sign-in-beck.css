@@ -1,159 +1,162 @@
 .d-grid gap-3 {
-    display: grid;
-
+  display: grid;
 }
 
 .d-grid input {
-    border-radius: 40px;
-    padding: 15px;
-    margin: 30px;
+  border-radius: 40px;
+  padding: 15px;
+  margin: 30px;
 }
 
 .forms {
-    position: relative;
-    bottom: 50%
+  position: relative;
+  bottom: 50%;
 }
 
 .right {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    right: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  right: 1200px;
 }
 
 .sign-in h1 {
-    height: 20px;
-    font-size: 600%;
+  height: 20px;
+  font-size: 600%;
 }
 
 .sign-in {
-    position: relative;
-    top: 150px;
-    left: 150px;
+  position: relative;
+  top: 150px;
+  left: 150px;
 }
 
-
 button {
-    margin: 40px;
-    position: relative;
-    left: 25%;
-    bottom: 200%;
-    width: 25%;
+  margin: 40px;
+  position: relative;
+  left: 25%;
+  bottom: 200%;
+  width: 25%;
 }
 
 .sign-button button {
-    border-radius: 40px;
-    background-color: #0651F8;
-    border: solid white;
-    
+  border-radius: 40px;
+  background-color: #0651f8;
+  border: solid white;
 }
 
 .sign-button {
-    position: relative;
-    right: 25%
+  position: relative;
+  right: 25%;
 }
 
 .button button {
-    border-radius: 40px;
+  border-radius: 40px;
 }
 
-
 .password {
-    position: relative;
+  position: relative;
 }
 
 #password {
-    width: 100%;
-    padding: 30px
+  width: 100%;
+  padding: 30px;
 }
 
 .password i {
-    position: absolute;
-    left: 10%;
-    top: 60px; 
+  position: absolute;
+  left: 10%;
+  top: 60px;
 }
 .user {
-    position: relative;
+  position: relative;
 }
 
 #user {
-    width: 100%;
-    padding: 30px;
+  width: 100%;
+  padding: 30px;
 }
 
 .user i {
-    position: absolute;
-    left: 10%;
-    top: 70px; 
+  position: absolute;
+  left: 10%;
+  top: 70px;
 }
 .email {
-    position: relative;
+  position: relative;
 }
 
 #email {
-    width: 100%;
-    padding: 30px;
+  width: 100%;
+  padding: 30px;
 }
 
 .email i {
-    position: absolute;
-    left: 10%;
-    top: 70px; 
+  position: absolute;
+  left: 10%;
+  top: 70px;
 }
 
 .socials {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-end;
-   margin: 20px;
-   position: relative;
-   left: 5%
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 20px;
+  position: relative;
+  left: 5%;
 }
 
 .platforms h5 {
-    padding-bottom: 20px;
-    position: relative;
-    left: 30%;
-    
-
+  padding-bottom: 20px;
+  position: relative;
+  left: 30%;
 }
 
 .socials i {
-    color: black;
-    border: 2px solid black;
-    padding: 20px;
-    border-radius: 100%;
-    margin: 30px;
+  color: black;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 100%;
+  margin: 30px;
 }
 
 .platforms {
-    position:relative;
-    top: 10%
+  position: relative;
+  top: 10%;
 }
 
 .sign-up {
-    position: relative;
-    top: 10%;
-    color: white;
-    text-align:center;
-    right: 50%;
-   
+  position: relative;
+  top: 10%;
+  color: white;
+  text-align: center;
+  right: 50%;
 }
 
 .image img {
-    position: relative;
-    left: 40%;
-    bottom: 5px;
+  position: relative;
+  left: 40%;
+  bottom: 5px;
 }
 
 .blue img {
-    position: relative;
-    z-index: -1;
-    bottom: 1200px;
-    right: 250px;
+  position: relative;
+  z-index: -1;
+  bottom: 1200px;
+  right: 250px;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#sign_in_btn {
+  color: white;
+  text-decoration: none;
+}
+
+#sign_up_btn {
+  color: white;
+  text-decoration: none;
 }
