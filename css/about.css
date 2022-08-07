@@ -57,3 +57,12 @@ a {
   text-align: center;
   color: white;
 }
+
+.footer-beck {
+  background-color: #1651f8;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
