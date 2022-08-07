@@ -1,51 +1,51 @@
-.container-fluid {
-    background-color:#1651F8;
-    height: auto;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-    align-content: center;
+.footer-beck {
+  background-color: #1651f8;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .try {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
-.get-started button{
-    margin:20px;
-    background-color: #7fd31a;
-    color: white;
-    border: none;
-    padding-left: 40px;
+.get-started button {
+  margin: 20px;
+  background-color: #7fd31a;
+  color: white;
+  border: none;
+  padding-left: 40px;
 }
 
 .get-started i {
-    color: white;
-    padding-left: 50px
+  color: white;
+  padding-left: 50px;
 }
 
-.chat button{
-    margin:20px;
-    color:#1651F8;
-    border: none
+.chat button {
+  margin: 20px;
+  color: #1651f8;
+  border: none;
 }
 
 .chat i {
-    color:#1651F8;
-    padding-right: 30px
+  color: #1651f8;
+  padding-right: 30px;
 }
 
 .text {
-    color: white;
-    text-align:center;
-    margin: 40px
+  color: white;
+  text-align: center;
+  margin: 40px;
 }
