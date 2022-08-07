@@ -1,9 +1,23 @@
+#logo_btn {
+  background-color: white;
+  border-style: none;
+}
+
+.nav-link-active {
+  color: black;
+  padding-right: 13px;
+}
+
 #btn_id1 {
   border-style: solid;
   border-color: blue;
   color: blue;
   background-color: white;
   border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #btn_id2 {
@@ -36,4 +50,10 @@
 
 .nav-link {
   color: black;
+}
+
+.card-body {
+  background-color: blue;
+  text-align: center;
+  color: white;
 }

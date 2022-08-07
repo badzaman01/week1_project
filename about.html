@@ -26,8 +26,24 @@
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
-              ><img src="/images/CRM-Main/Logo.png" alt="#"
-            /></a>
+              ><button id="logo_btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img  src="/images/CRM-Main/Logo.png" alt="#">
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Hello There...</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Welcome to Double Tap!!
+                    </div>
+                  </div>
+                </div>
+              </div>
             <button
               class="navbar-toggler"
               type="button"
@@ -42,12 +58,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
+                  <a class="nav-link-active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="index.html">Features</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#pricing">Pricing</a>
@@ -70,10 +84,10 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="sign-in.html">Sign In</a>
+                      <a class="dropdown-item" href="sign-in-beck.html">Sign In</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="sign-up.html"
+                      <a class="dropdown-item" href="sign-up-jason.html"
                         >Try it Free</a
                       >
                     </li>
@@ -81,15 +95,11 @@
                 </li>
               </ul>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button
-                  id="btn_id1"
-                  class="btn btn-primary me-md-2"
-                  type="button"
-                >
-                  Sign In
+                <button id="btn_id1" class="btn btn-primary me-md-2" type="button">
+                  <a href="sign-in-beck.html">Sign In</a>
                 </button>
                 <button id="btn_id2" class="btn btn-primary" type="button">
-                  Try it Free
+                 <a  class="text-white" href="sign-up-jason.html">Try it Free</a>
                 </button>
               </div>
             </div>
@@ -120,7 +130,7 @@
                      &nbsp&nbsp Chat With Us
                     </button>
                   </div>
-                  <div class="info">Already using DoubleTap? <a href="/sign-in.html">Sign In</a>
+                  <div class="info">Already using DoubleTap? <a href="/sign-in-beck.html">Sign In</a>
                   </div>
                   <small>Free 14 day trial  &nbsp&#8226&nbsp  Manage customers in minutes &nbsp&#8226&nbspCancel at anytime</small>
                 </div>
@@ -135,12 +145,11 @@
             </div>
       <hr id="hr_tag" />
     
-      <div id="how_it_works" class="card_how_it_works card">
-        <div class="card-body">
-          <h5 class="card-title">How it Works</h5>
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Error impedit non minima, praesentium, magnam sunt ducimus, vitae dolore similique nostrum 
-            exercitationem architecto eveniet provident. Nesciunt reprehenderit deserunt dolorum a provident.</p>
+      <div class="card_how_it_works card">
+        <div>
+          <p id="how_it_works" class="card-text"><strong>How it Works</strong><br><br> <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Error impedit non minima, praesentium, magnam sunt ducimus, <br> vitae dolore similique nostrum 
+            exercitationem architecto <br> eveniet provident. Nesciunt reprehenderit deserunt <br> dolorum a provident.</b> <br><br><br></p>
         </div>
       </div>
 
@@ -151,8 +160,7 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Collect Useful Info</h5>
-              <p class="card-text">Deliver the world of payment options and seamless checkout experiences, making it easy for your 
+              <p id="pricing" class="card-text"><strong>Collect Useful Info</strong><br><br> Deliver the world of payment options and seamless checkout experiences, making it easy for your 
                 customers to pay you for your products and services.</p>
             </div>
           </div>
@@ -160,10 +168,10 @@
       </div>
 
       <div class="card_how_it_works card">
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Error impedit non minima, praesentium, magnam sunt ducimus, vitae dolore similique nostrum 
-            exercitationem architecto eveniet provident. Nesciunt reprehenderit deserunt dolorum a provident.</p>
+        <div>
+          <p class="card-text"> <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Error impedit non minima, praesentium, magnam sunt ducimus, <br> vitae dolore similique nostrum 
+            exercitationem architecto <br> eveniet provident. Nesciunt reprehenderit deserunt <br> dolorum a provident.</b> <br><br><br></p>
         </div>
       </div>
 
@@ -174,7 +182,6 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 id="pricing" class="card-title">Get Paid Sooner</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vero 
                 accusantium aut reiciendis modi non perspiciatis eum vel dolores ducimus eligendi laboriosam 
                 earum laudantium voluptate libero maxime repudiandae quia distinctio.</p>
@@ -188,3 +195,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   </body>
 </html>
+
