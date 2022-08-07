@@ -1,12 +1,3 @@
-.container-fluid {
-  background-color: #1651f8;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-}
-
 .try {
   color: white;
   text-align: center;
