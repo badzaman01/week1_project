@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="/css/ninebynine.css">
+        <link rel="stylesheet" href="/css/about.css" />
+        <link rel="stylesheet" href="/css/footer.css">
+
 
     <!-- copy and paste the line of code below into your head to use font awesome icons in your project. https://fontawesome.com/icons -->
     <script
@@ -27,7 +30,88 @@
     <title>Home | Double Tap CRM</title>
   </head>
   <body>
-    <nav>navbar placeholder</nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><button id="logo_btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img  src="/images/CRM-Main/Logo.png" alt="#">
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Hello There...</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Welcome to Double Tap!!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link-active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how_it_works">How it Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="sign-in-beck.html">Sign In</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="sign-up-jason.html"
+                        >Try it Free</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button id="btn_id1" class="btn btn-primary me-md-2" type="button">
+                  <a href="sign-in-beck.html">Sign In</a>
+                </button>
+                <button id="btn_id2" class="btn btn-primary" type="button">
+                 <a  class="text-white" href="sign-up-jason.html">Try it Free</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
     <div class="container">
       <main>
         <div class="focus-box">
@@ -145,9 +229,34 @@
             </div>
           </div>
         </div>
-        <div class="payments">
-          payments place holder
+     <div class="card mb-5 blue_box blue-box-julia" style="max-width: 840px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/images/CRM-Main/credit-card-picture.png" class="img-fluid rounded-start mt-5" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p id="pricing" class="card-text"><strong>Start accepting payments with Ease</strong><br><br> Deliver the world of payment options and seamless checkout experiences, making it easy for your 
+                customers to pay you for your products and services.</p>
+                <ul><li>Accept credit & debit cards, Paypal, ACH, Apple pay, and more with the flick of a switch</li>
+                <li>
+Process transactions in up to 32 different currencies.</li>
+                <li>Integrate with popular payment gateways like Stripe, and Braintree.   </li>
+              <li>Select from a variety of different checkout options and experiences.</li></ul>
+              <div class="dropdown dropend solutions-dropdown-button">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Learn More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/about.html">About</a></li>
+                    <li><a class="dropdown-item" href="/sign-up-jason.html">Sign Up</a></li>
+                    <li><a class="dropdown-item" href="#">Mission and Values</a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
         </div>
+      </div>
         <div class="solutions">
           <h4 class = "mb-4">Solutions to fit your Business Needs</h4>
           <div class="solutions-box">
@@ -177,7 +286,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="/about.html">About</a></li>
-                    <li><a class="dropdown-item" href="/sign-up-jason.html"Sign Up</a></li>
+                    <li><a class="dropdown-item" href="/sign-up-jason.html">Sign Up</a></li>
                     <li><a class="dropdown-item" href="#">Mission and Values</a></li>
                   </ul>
                 </div>
@@ -217,14 +326,33 @@
             </div>
           </div>
         </div>
-        <a href="/index.html">home</a>
-        <a href="/about.html">about</a>
-        <a href="/sign-in.html">sign-in</a>
-        <a href="/sign-up.html">sign-up</a>
       </main>
       
     </div>
-    <footer class="container-fluid">footer placeholder</footer>
+     <div class="footer-beck container-fluid">
+
+        <div class="try">
+            <h1>Try Double Tap Today!</h1>
+            <br>
+            <h3>Let's Get Started</h3>
+        </div>
+
+        <div class="buttons">
+            <div class="get-started">
+                <button type="button" class="btn-lg"a href="/sign-up-jason.html"><b>Get Started</b><i class="fa-solid fa-angles-right fa-2xs"></i></button>
+                
+            </div>
+
+            <div class="chat">
+                <button type="button" class="btn-lg"a href="#"><i class="fa-solid fa-comment-dots"></i><b>Chat With Us</b></button>
+            </div>
+        </div>
+
+        <div class="text">
+            <small>Free 14 day trial  &nbsp&#8226&nbsp  Manage customers in minutes &nbsp&#8226&nbsp Cancel at anytime</small>
+        </div>
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

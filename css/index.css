@@ -117,6 +117,33 @@ div.focus-box {
   margin: 0px auto;
 }
 
+.blue-box-julia {
+  border-radius: 20px;
+  margin: 60px auto;
+
+}
+
+.blue-box-julia .card-body {
+    border-radius: 0 20px 20px 0;
+    text-align: left;
+    padding: 60px 30px;
+
+}
+.blue-box-julia strong p {
+  text-align: left;
+}
+.blue-box-julia li {
+  text-align: left;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.blue-box-julia .dropdown-toggle {
+  border: 2px solid white;
+  background-color: #0651f8;
+
+}
+
 .solutions-icon {
   background-color: #e3ebfc;
   border: 1px solid #bbb;
